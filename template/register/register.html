@@ -1,0 +1,57 @@
+
+
+	<div class="register" ng-controller="registerController">
+		
+		<div class="classifyList-title common">
+			
+			<div class="search">
+				<div class="go-to"><img src="./public/images/inco/fh@3x.png"></div>
+				<h5>注册</h5>
+			</div>
+
+		</div>
+
+		<div class="register-main">
+			
+			<div class="register-title">
+				<h1>咕咕动漫<span>.</span></h1>
+			</div>
+
+			<form class="register-form" name="loginForm">
+				
+				<div class="form-control">
+					<div class="border-bottom">
+						<label class="usr">账号</label>
+						<input type="text" placeholder="请输入你的手机号" name="phone" ng-model="login.phone" ng-pattern="/^[1][3,4,5,7,8][0-9]{9}$/" />
+					
+					<span class="alert" ng-show="loginForm.phone.$error.pattern">账号格式不正确</span>
+					</div>
+				</div>
+
+				<div class="form-control">
+					<div class="code fl border-bottom">
+						<label class="number">验证码</label>
+						<input type="text" name="number" placeholder="请输入验证码" />
+					</div>	
+					<div class="code-num fr"><a href="">获取验证码</a></div>
+				</div>
+
+				<div class="form-control">
+					<div class="border-bottom">
+						<label class="pwd">密码</label>
+						<input type="password" name="password" placeholder="请输入你的密码" ng-model="login.password" ng-required="true" ng-minlength="6" ng-maxlength="8" />
+						<span class="alert" ng-show="loginForm.password.$error.required && !loginForm.password.$pristine">请输入密码</span>
+						<span class="alert" ng-show="loginForm.password.$error.minlength">长度不小于6</span>
+						<span class="alert" ng-show="loginForm.password.$error.maxlength">长度不大于8</span>
+					</div>
+				</div>
+
+				<div class="btn" ng-disabled="loginForm.$invalid">注册</div>
+
+				<div class="account"><a><span>同意《注册服务协议》与及《隐私政策》</span></a></div>
+
+			</form>
+
+		</div>
+
+	</div>

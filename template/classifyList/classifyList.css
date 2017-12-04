@@ -1,0 +1,97 @@
+.classifyList .classifyList-main {
+	width: 100%;
+	height: calc(100% - 110px);
+}
+
+.classifyList .main-banner {
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+.classifyList .main-banner > img {
+	width: ;
+	height: 96px;
+}
+
+.classifyList .main-list {
+	width: calc(100%);
+	
+	overflow: auto;
+	margin-bottom: 60px;
+}
+.classifyList .main-list > li {
+	margin-bottom: 8px;
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 4%;
+	padding-left: 4%;
+}
+.classifyList .main-list .play {
+	width: 40%;
+	position: relative;
+	font-size: 12px;
+	color: #fff;
+}
+
+.classifyList .main-list .play .new-num {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	background-color: #F51F1F;
+	width: auto;
+	height: auto;
+	text-align: center;
+	padding: 2px;
+	font-size: 12px;
+}
+
+.classifyList .main-list .play .play-num {
+	position: absolute;
+	right: 6px;
+	bottom: 6px;
+	width: 45px;
+	height: 14px;
+	background-color: rgba(105, 96, 82, 0.6);
+	color: #fff;
+	text-align: right;
+	padding-right: 6px;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	
+}
+
+.classifyList .play-num::before {
+	content: "";
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	left: 6px;
+	bottom: 3px;
+	background:url('../../public/images/main/classifyList/bf@3x.png');
+	background-size: contain;
+}
+
+
+
+.classifyList .main-list .synopsis {
+	width: 54%;
+	
+}
+
+.classifyList .main-list .synopsis li {
+	font-size: 12px;
+	color: #707070;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+}
+
+.classifyList .main-list .synopsis li:nth-child(1) {
+	font-size: 16px;
+	color: #383838;
+}

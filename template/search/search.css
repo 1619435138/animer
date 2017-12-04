@@ -1,0 +1,52 @@
+.search, body, html{
+	background-color: #fff;
+}
+.search .common .go-to {
+	width: 20px;
+}
+
+.search .search-form{
+    width: calc(100% - 100px);
+    margin: 0 auto;
+}
+
+.search .search-form input {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 16px;
+	border-radius: 6px;
+}
+
+.search .lastest-searches, .hot-searches {
+	color: #000;
+	text-align: left;
+	padding: 0 5%;
+	width: calc(100% - 10%);
+}
+
+.search .lastest-searches > p, .hot-searches > p {
+	position: relative;
+	overflow: hidden;
+	font-size: 24px;
+}
+
+.search .lastest-searches > p > i {
+	background: url('../../public/images/inco/scsc@3x.png') no-repeat 0 0;
+	background-size: contain;
+	width: 12px;
+	height: 14px;
+	right: 0px;
+	position: absolute;
+	top: calc(36px / 2);
+}
+
+.search .lastest-searches > ul > li, .hot-searches > ul > li {
+	float: left;
+	margin-left: 20px;
+}
+
+.search .lastest-searches > ul > li > a, .hot-searches > ul > li > a {
+	color: #686868;
+	letter-spacing: 1px;
+}

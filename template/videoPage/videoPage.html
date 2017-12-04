@@ -1,0 +1,109 @@
+
+
+	<div class="videoPage">
+		
+		<div class="videoPage-bg">
+			
+			<p>妖精的尾巴</p>
+			<div class="bg-img">
+				<img src="./public/images/main/videoPage/sps@3x.png" alt="" />
+			</div>
+			<div>
+				<span class="menu"></span>
+				<span class="set-up"></span>
+			</div>
+				
+		</div>
+
+		<div class="videoPage-main">
+			
+			<div class="main-list">
+				<div class="list-bg">
+					<div class="list-info">
+						<div class="fl list-img"><img src="./public/images/main/videoPage/ca@3x.png" alt="" /></div>
+						<div class="fl synopsis">
+							<ul>
+								<li>妖精的尾巴</li>
+								<li>播出时间：2016年</li>
+								<li>更新至 第341话</li>
+								<li>89.8万次播放</li>
+								<li>1.5万人收藏</li>
+							</ul>
+						</div>
+						<div class="fr share">
+							<ul>
+								<li class="fl"><a>
+									<img src="./public/images/main/videoPage/scsc@3x.png" alt="" />
+									<span>收藏</span>
+								</a></li>
+								<li class="fr"><a>
+									<img src="./public/images/main/videoPage/fxf@3x.png" alt="" />
+									<span>分享</span>
+								</a></li>
+							</ul>
+						</div>
+					</div>
+						
+					<div class="list-brief">
+						<h5>内容简介： 
+							<span class="fr">
+								<img src="./public/images/main/videoPage/sqsq@3x.png" alt="" />
+							</span>
+						</h5>
+						<p>故事叙述在一个充满魔法的世界——“阿斯兰特（EARTH LAND）”中，位于菲奥雷王国的一个众多厉害魔导士云集的魔导士公会“FAIRY TAIL”。露西一直希望能加入，成为其中的成员。在纳兹的引导下，露西终于得尝所愿，并结识了许多厉害的魔导士。随后，露西跟纳兹、格雷、艾露莎和哈比组成“最强队伍”，在这个全世界最吵闹、最暴力，但也是最快乐的公会里，创造出数不清的传说的，借着各种委托人的任务而不断变强，伙伴也一个一个加入，故事就这样渐渐揭开。</p>
+					</div>
+
+				</div>
+
+				<div class="chapter">
+					
+					<div class="chapter-both">
+						<a href=""><div class="fl download">下载</div></a>
+						<a href=""><div class="fr comment">评论</div></a>
+					</div>
+					
+					<div class="chapter-list">
+						<ul>
+							<li><a ui-sref="readingPage">第1话</a></li>
+							<li><a ui-sref="readingPage">第2话</a></li>
+							<li><a ui-sref="readingPage">第3话</a></li>
+							<li><a ui-sref="readingPage">第4话</a></li>
+							<li><a ui-sref="readingPage">第5话</a></li>
+							<li><a ui-sref="readingPage">第6话</a></li>
+							<li><a ui-sref="readingPage">第7话</a></li>
+							<li><a ui-sref="readingPage">第8话</a></li>
+							<li><a ui-sref="readingPage">第9话</a></li>
+							<li><a ui-sref="readingPage">第10话</a></li>
+							<li><a ui-sref="readingPage">第1话</a></li>
+							<li><a ui-sref="readingPage">第2话</a></li>
+							<li><a ui-sref="readingPage">第3话</a></li>
+							<li><a ui-sref="readingPage">第4话</a></li>
+							<li><a ui-sref="readingPage">第5话</a></li>
+							<li><a ui-sref="readingPage">第1话</a></li>
+							<li><a ui-sref="readingPage">第2话</a></li>
+							<li><a ui-sref="readingPage">第3话</a></li>
+							<li><a ui-sref="readingPage">第4话</a></li>
+							<li><a ui-sref="readingPage">第5话</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<script type="text/javascript">
+			$(function () {
+				$('.list-brief .fr').click(function () {
+					$('.list-brief p').toggleClass('displays');
+					$(this).find('img').animate({},function(){
+						$(this).toggleClass('trans');
+					});
+				});
+				$('.set-up').click(function () {
+					$(location).attr('href', '../index/index.html')
+				})
+			})
+		</script>
+
+	</div>

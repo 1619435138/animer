@@ -1,0 +1,216 @@
+body, html, .personal {
+	height: 100%;
+	min-width: 300px;
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #e6e6e6;
+}
+
+.personal .set-up {
+	position: relative;	
+}
+
+.personal .set-up span {
+	position: absolute;
+	background: url('../../public/images/inco/sz@3x.png') no-repeat 0 0;
+	background-size: cover;
+	width: 24px;
+	height: 24px;
+	top: 10px;
+	right: 10px;
+	z-index: 999;
+	transition: all 2s
+}
+
+.personal .set-up span.trans {
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* Internet Explorer */
+	-moz-transform:rotate(180deg); /* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); /* Opera */
+	transition: all 2s
+}
+
+
+
+.personal .personal-bg {
+	background: url('../../public/images/main/personal/bgt@3x.png') no-repeat 0 0;
+	background-size: contain;
+}
+
+.personal .personal-main {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.personal .personal-main .main-use {
+	width: calc(100%);
+	
+}
+
+.personal .main-use {
+	width: 100%;
+	height: 100%;
+}
+
+
+.personal .main-use .empty h2 {
+	width: 30px; 
+	margin: 0 auto;
+	visibility: hidden; /* visibility 属性设置元素是否可见。 */
+}
+
+.personal .main-use .use-portrait {
+	width: 160px;
+	margin: 0 auto;
+	
+}
+
+
+.personal .main-use > .use-name {
+	
+	text-align: center;
+	margin-top: 10px;
+	position: relative;
+	width: auto;
+}
+
+.personal .main-use > .use-name > input {
+	height: 30px;
+	color: #000;
+	font-size: larger;
+	text-align: center;
+	background: transparent;
+	width: 100%;
+	letter-spacing : 1px;
+}
+
+.personal .main-use > .use-name > div {
+	position: absolute;
+    right: 0;
+    top: 7px;
+    margin: auto 0;
+    bottom: 0;
+    width: 14px;
+}
+
+
+.personal .use-info {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.personal .use-info > ul > li {
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+
+}
+
+.personal .use-info a{
+	color: #37404B;
+}
+
+.personal .use-info a .use-icon {
+	width: 13.6666px;
+	height: 12.6666px;
+	margin-top: 3px;
+	
+}
+
+.personal .use-info li:first-child a .use-icon {
+	background: url('../../public/images/main/personal/gz@3x.png') no-repeat 0 0;
+	background-size: contain;
+}
+
+.personal .use-info li:nth-child(2) a .use-icon {
+	background: url('../../public/images/main/personal/fc@3x.png') no-repeat 0 0;
+	background-size: contain;
+}
+
+.personal .use-info li:last-child a .use-icon {
+	background: url('../../public/images/main/personal/fks@3x.png') no-repeat 0 0;
+	background-size: contain;
+}
+
+.personal .use-info a .use-num {
+	display: block;
+}
+
+
+
+.personal .main-list {
+	margin-top: 20px;
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+
+.personal .main-list > ul > li {
+	margin-bottom: 8px;
+	background: #fff;
+	height: 60px;
+    line-height: 60px;
+    position: relative;
+	font-size: 16px;
+}
+
+.personal .main-list > ul > li > a h3 {
+	height: 60px;
+    line-height: 60px;
+	padding-left: 50px;
+	
+	color: #37404B;
+
+}
+
+.personal .main-list .list-name h3::before {
+	content: "";
+	width: 27px;
+	height: 25px;
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 14px;
+}
+
+
+
+.personal .main-list .list-to h3::before {
+	content: "";
+	background: url('../../public/images/main/personal/jt@3x.png') no-repeat 0 0;
+	background-size: contain;
+	width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 24px;
+}
+
+
+.personal .main-list > ul > li:first-child .list-name h3::before {
+	background: url('../../public/images/main/personal/sc@3x.png') no-repeat 0 0;
+	background-size: cover;
+}
+
+.personal .main-list > ul > li:nth-child(2) .list-name h3::before {
+	background: url('../../public/images/main/personal/ls@3x.png') no-repeat 0 0;
+	background-size: cover;
+	height: 27px;
+	top: 16px;
+}
+
+.personal .main-list > ul > li:last-child .list-name h3::before {
+	background: url('../../public/images/main/personal/wdjl@3x.png') no-repeat 0 0;
+	background-size: cover;
+	height: 27px;
+	top: 16px;
+}
+
+.personal .position-fixed {
+	height: 70px;
+}
+

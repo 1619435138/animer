@@ -1,0 +1,97 @@
+.classify .classify-main {
+	
+	padding-right: 2%;
+	padding-left: 2%;
+	width: calc(100% - 4%);
+	height: calc(100% - 110px - 30px);
+	background-color: #fff;
+	padding-top: 30px;
+
+}
+
+.classify .classify-main > ul {
+	
+	overflow: hidden;
+}
+
+.classify .classify-main > ul > li {
+	width: calc(50% - 8%);
+	float: left;
+	padding-right: 4%;
+	padding-left: 4%;
+	margin-bottom: 10px;
+}
+
+.classify .list-img {
+	position: relative;
+	z-index: 9;
+}
+
+.classify .list-pass {
+	position: absolute;
+	right: -9px;
+	top: 20px;
+	z-index: -999
+}
+
+.classify .list-pass > i:nth-child(1) {
+	position: absolute;
+	right: 0;
+	background: url('../../public/images/main/classify/you@3x.png') no-repeat 0 0;
+	background-size: 100% 100%;
+	width: 23.6px;
+	height: 13.2px;
+}
+
+.classify .list-pass > i:nth-child(2) {
+	position: absolute;
+	right: 0;
+	top: 12px;
+	background: url('../../public/images/main/classify/zuo@3x.png') no-repeat 0 0;
+	background-size: 100% 100%;
+	width: 23.6px;
+	height: 13.2px;
+	margin-top: 4px;
+}
+
+
+.classify .list-info {
+	
+	position: relative;
+	height: 42px;
+}
+
+.classify .list-info > .list-name {
+	padding-left: 20px;
+	padding-top: 10px;
+	font-size: 14px;
+	color: #061324;
+	letter-spacing:2px;
+}
+
+.classify .list-info > .list-icon > span {
+	position: absolute;
+}
+
+.classify .list-info > .list-icon > span:nth-child(1) {
+	background: url('../../public/images/main/classify/cc@3x.png') no-repeat 0 0;
+	background-size: 100% 100%;
+	width: 28px;
+	height: 28px;
+	top: -16px;
+	right: 24px;
+	z-index: 99;
+}
+
+.classify .list-info > .list-icon > span:nth-child(2) {
+	width: 50px;
+	top: 10px;
+	right: 12px;
+}
+
+.classify .list-info > .list-icon > span:nth-child(2) i {
+	background: url('../../public/images/main/classify/xc@3x.png') repeat 0 0;
+	background-size: contain;
+	width: 100%;
+	height: 10px;
+}

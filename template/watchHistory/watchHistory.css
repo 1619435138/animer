@@ -1,0 +1,80 @@
+.watchHistory .watchHistory-main {
+	width: calc(100%);
+	
+	height: calc(100% - 110px);
+	padding-top: 16px;
+	
+}
+
+.watchHistory .main-time, .main-time {
+	background-color: #fff;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 10px;
+	margin-bottom: 14px;
+}
+
+.watchHistory .main-time h5 {
+	font-size: 16px;
+	padding-bottom: 5px;
+	color: #565656;
+}
+
+.watchHistory .main-time > ul > li {
+	width: 100%;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #EBEBEB;
+	padding-bottom: 16px;
+}
+
+.watchHistory .main-time .list-img {
+	width: 160px;
+}
+
+.watchHistory .main-time .list-name {
+	
+	width: calc(100% - 160px - 20px);
+	margin-left: 20px;
+	height: 100%;
+}
+
+.watchHistory .main-time .list-name li {
+	width: 100%;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+}
+
+.watchHistory .main-time .list-name li:nth-child(1) {
+	/*font-size: 18px;*/
+	letter-spacing : 1px;
+	color: #2B2B2B;
+	font-weight: 600;
+}
+
+.watchHistory .main-time .list-name li:nth-child(2) {
+	display: block;
+	font-size: 12px;
+	height: 22px;
+	line-height: 22px;
+	width: calc(100% - 40px);
+	
+	position: relative;
+	padding-left: 40px;
+	margin-top: 20px;
+	color: #8F8F8F;
+}
+
+.watchHistory .main-time .list-name li span::before {
+	content: "";
+	display: block;
+	background: url('../../public/images/main/watchHistory/ssj@3x.png') no-repeat 0 0;
+	background-size: cover;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	top: 0;
+	left: 0px;
+}

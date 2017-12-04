@@ -1,0 +1,155 @@
+body, html, .register {
+	height: 100%;
+	font-family: 'PingFangSC-Regular,Helvetica,"Droid Sans",Arial,sans-serif';
+	min-width: 300px;
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.register > .register-main {
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+
+.register .register-title {
+	margin-top: 40px;
+}
+
+.register .register-title > h1 {
+	text-align: center;
+	font-weight: 100;
+	letter-spacing : 2px;
+}
+
+.register .register-title > h1 span {
+	color: #D52845;
+	font-weight: bold;
+	
+}
+
+
+.register-main > .register-form {
+	margin-top: 60px;
+}
+
+.register-main > .register-form > .form-control {
+	
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+.register-main .register-form label {
+	color: #D52B47;
+	position: relative;
+	padding-left: 28px;
+	width: calc(80px - 28px);
+	line-height: 30px;
+	float: left;
+}
+
+.register-main .register-form .usr::before, 
+.register-main .register-form .pwd::before , 
+.register-main .register-form .number::before {
+	content:"";
+	width: 12.6px;
+	height: 15.4px;
+	display: block;
+	position: absolute;
+	top:  7px;
+	left: 0;
+	clear: both;
+}
+
+.register-main .register-form .usr::before {
+	background: url('../../public/images/main/register/shouji@3x.png') no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.register-main .register-form .number::before {
+	background: url('../../public/images/main/register/yzm@3x.png') no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.register-main .register-form .pwd::before {
+	background: url('../../public/images/main/register/suo@3x.png') no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.register-main .register-form input {
+	height: 30px;
+	background-color: transparent;
+	padding-left: 5px;
+	line-height: 36px;
+	width: calc(100% - 5px - 80px);
+	float: left;
+	
+}
+
+
+.register-main .register-form > .btn {
+	background-color: #D62846;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 6px;
+	color: #fff;
+	box-shadow: 0px 3px 4px 2px #d6284659;
+}
+
+.register-main .register-form > .account {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 34px;
+	color: #CBCBCB;
+	position: relative;
+}
+
+.register-main .register-form > .account span {
+	display: inline-block;
+	padding-left: 16px;
+}
+
+.register-main .register-form > .account a::before {
+	content:"";
+	
+	background: url('../../public/images/main/register/rz@3x.png') no-repeat 0 0;
+	background-size: contain;
+	width: 16px;
+	height: 16px;
+	top: 2px;
+	position: absolute;
+	clear: both;
+}
+
+
+.code {
+	width: calc(100% - 34%)
+}
+
+.code-num {
+	width: 30%;
+	height: 30px;
+	background-color: #D02744;
+	border-radius: 6px;
+	font-size:12px;
+	line-height: 30px;
+	text-align: center;
+	
+	box-shadow: 0px 3px 4px 2px #d6284659;
+}
+
+.code-num a {
+	color: #fff;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #D2D2D2;
+	overflow: hidden;
+}
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: #D2D0D1;
+}

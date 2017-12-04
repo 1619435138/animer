@@ -1,0 +1,59 @@
+.readingPage, body, html {
+	background-color: #fff;
+}
+
+.readingPage .readingPage-main {
+	width: calc(100%);
+	height: calc(100% - 150px);
+}
+
+.readingPage .tabs {
+	height: 100px;
+	background-color: #D32845;
+}
+
+.readingPage .tabs .bar {
+	height: 40px;
+	padding-left: 5%;
+	padding-right: 5%;
+	line-height: 40px;
+}
+
+.readingPage .tabs .bar .prev, .tabs .bar .next{
+	width: 24px;
+	margin: 8px auto 0;
+}
+
+.readingPage .tabs .bar .schedule {
+	width: calc(100% - 10% - 40px);
+	margin: 0 10px 0;
+	height: 40px;
+	float: left;
+}
+
+.readingPage .tabs .bar .schedule a {
+	display: block;
+	background-color: #fff;
+	border-radius: 6px;
+}
+
+.readingPage .tabs .bar .schedule p {
+	background-color: #FF0000;
+	width: 60%;
+	height: 6px;
+	margin-top: 16px;
+	border-radius: 6px;
+}
+
+.readingPage .tabs .bar .next{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* Internet Explorer */
+	-moz-transform:rotate(180deg); /* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); /* Opera */
+}
+
+
+.readingPage .tabs > ul > li span{
+	color: #fff;
+}

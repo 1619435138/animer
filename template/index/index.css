@@ -1,0 +1,137 @@
+.index .index-label, .index-list > .list{
+	background-color: #fff;
+}
+
+/* 热门标签 */
+
+.index .index-label {
+	width: 100%;
+	margin-top: 10px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.index .index-label > div > h5 {
+	text-align: center;
+	color: #6F6F6F;
+}
+
+.index .index-label > ul > li {
+	float: left;
+	width: 20%;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+}
+
+.index .index-label > ul > li img {
+	width: 40px;
+	margin: 6px auto 0;
+}
+
+.index .index-label > ul > li span {
+	margin-top: 4px;
+	color: #6F6F6F;
+}
+
+
+
+/* 作品 */
+
+.index .index-main {
+	height: calc(100% - 110px);
+	width: 100%;
+}
+
+.index .index-main > .index-list {
+	width: calc(100%);
+	
+	
+}
+
+.index .index-list > .list {
+	font-size: 14px;
+	margin-top: 10px; 
+}
+
+.index .index-list > .list > .list-title{
+	overflow: hidden;
+}
+
+.index .index-list .list-title > .works {
+	position: relative;
+	padding-left: 20px;
+
+}
+
+.index .index-list .list-title > .works::before{
+	
+	background: url('../../public/images/main/index/huo@3x.png') no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.index .index-list > .list .more{
+	margin-right: 10px;
+}
+
+.index .list {
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 10px;
+}
+
+.index .list > .list-list {
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.index .list > .list-list > ul > li {
+	float: left;
+	width: calc(25% - 8px);
+	margin-right: 10px;
+}
+
+.index .list > .list-list > ul > li:nth-child(4) {
+	margin-right: 0;
+}
+
+.index .list > .list-list > ul > li img {
+	
+}
+
+.index .list > .list-list > ul > li span {
+	text-align: center;
+	color: #6F6F6F;
+	padding-top: 8px;
+	width: 100%;
+	font-size: 12px;
+}
+
+
+/*  各类作品  */
+
+.index .index-list > .list {
+	padding-bottom: 20px;
+}
+
+.index .index-list > .list:nth-child(2) .works::before{
+	background: url('../../public/images/main/index/qy@3x.png') no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.index .index-list > .list:nth-child(3) .works::before{
+	background: url('../../public/images/main/index/dmm@3x.png') no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+
+
+
+
+/**
+ *   边框
+ */
+
+.index .index-label, .index-list > .list {
+	border-bottom: 3px solid #EBEBEB;
+}

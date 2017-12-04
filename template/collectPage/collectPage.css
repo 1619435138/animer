@@ -1,0 +1,75 @@
+body, html, .collectPage {
+	
+	background-color: #fff;
+}
+
+.collectPage .collectPage-main {
+	
+	padding-right: 2%;
+	padding-left: 2%;
+	width: calc(100% - 4%);
+	height: calc(100% - 110px - 30px);
+	
+	
+
+}
+
+.collectPage .collectPage-main > ul {
+	
+	overflow: hidden;
+}
+
+.collectPage .collectPage-main > ul > li {
+	width: calc(33.3333% - 4%);
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: center;
+}
+
+
+.collectPage .collectPage-main > ul > li{
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 12px;
+}
+
+.collectPage .main-file {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.collectPage .main-file .file-operation {
+	float: right;
+}
+
+.collectPage .main-file .file-operation a {
+	display: inline-block;
+	padding-right: 24px;
+}
+
+.collectPage .main-file .file-operation .delete {
+	width: 24px;
+} 
+.collectPage .main-file .file-operation .openfile {
+	width: 28px;
+	
+}
+
+.collectPage .main-list .list-icon{
+	position: absolute;
+	right: 4px;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+	background: url('../../public/images/inco/X@3x.png') no-repeat 0 0;
+	background-size: cover;
+	cursor:pointer;
+}
+
+.collectPage .main-list li p {
+	padding-top: 5px;
+	color: #565656;
+	font-size: 14px;
+}

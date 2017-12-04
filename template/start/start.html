@@ -1,0 +1,23 @@
+
+
+	<!-- Swiper -->
+    <div class="swiper-container start">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./public/images/main/start/one.png"></div>
+            <div class="swiper-slide"><img src="./public/images/main/start/two.png"></div>
+            <div class="swiper-slide on "><a ui-sref="home.index"><img src="./public/images/main/start/three.png"></a></div>
+            
+        </div>
+    </div>
+
+   
+    <script>
+    var mySwiper = new Swiper( '.swiper-container')
+        mySwiper.on('click', function(){
+            var is = $('.on').attr('class').indexOf('active');
+            if(is > -1){
+                
+            }
+          
+        })
+    </script>

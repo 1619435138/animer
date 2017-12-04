@@ -1,0 +1,61 @@
+
+
+	<div class="login" ng-controller="loginController">
+		
+		<div class="login-bg">
+			<img src="./public/images/main/login/jx-4@3x.png">
+		</div>
+
+		<div class="login-main">
+			
+			<div class="login-title">
+				<h1>咕咕动漫<span>.</span></h1>
+			</div>
+
+			<form class="login-form" name="loginForm">
+				
+				<div class="form-control">
+					<label class="usr">账号</label>
+					<input type="text" placeholder="请输入你的手机号" name="phone" ng-model="login.phone" ng-pattern="/^[1][3,4,5,7,8][0-9]{9}$/" />
+					
+					<span class="alert" ng-show="loginForm.phone.$error.pattern">账号格式不正确</span>
+       
+				</div>
+
+				<div class="form-control">
+					<label class="pwd">密码</label>
+					<input type="password" name="password" placeholder="请输入你的密码" ng-model="login.password" ng-required="true" />
+					
+					<span class="alert" ng-show="loginForm.password.$error.required && !loginForm.password.$pristine">请填写密码</span>
+
+				</div>
+
+				<div class="btn">登陆</div>
+
+				<p class="account"><a href="../register/register.html">还没有帐号？<span>立即注册</span></a></p>
+
+			</form>
+
+			<div class="third">
+				<ul>
+					<li><a href="">
+						<img src="./public/images/main/login/wx@3x.png" alt="" >
+						<span>微信</span>
+					</a></li>
+
+					<li><a href="">
+						<img src="./public/images/main/login/QQ@3x.png" alt="" >
+						<span>QQ</span>
+					</a></li>
+
+					<li><a href="">
+						<img src="./public/images/main/login/wb@3x.png" alt="" >
+						<span>微博</span>
+					</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+	

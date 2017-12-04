@@ -1,0 +1,191 @@
+body, html {
+	height: 100%;
+	font-family: "PingFangSC-Regular","Helvetica","Droid Sans","Arial","sans-serif";
+	min-width: 300px;
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #EBEBEB;
+}
+
+
+/* 首页  小图标 */
+.works::before{
+	content:"";
+	width: 12.6px;
+	height: 15.4px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	clear: both;
+}
+
+
+/**
+	公共
+ */
+/* 头部 */
+
+.common {
+	height: 50px;
+	width: 100%;
+	background-color: #e42b4a;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.common  h5{
+	letter-spacing : 2px;
+	font-size: 16px;
+}
+
+.common div > div{
+	position: absolute;
+	margin-top: 16px;
+	top: 0;
+}
+
+.common .go-to {
+    left: 24px;
+   	width: 12px;
+}
+
+.common .search-img{
+    right: 24px;
+    width: 20px;
+}
+
+
+
+.position-fixed {
+	height: 70px;
+}
+
+
+/* 尾部 */
+
+.tabs{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	max-width: 600px;
+	min-width: 300px;
+	z-index: 999;
+	border-top: 1px solid #EBEBEB;
+}
+
+
+.tabs > ul > li {
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+}
+
+.tabs > ul > li > a {
+	display: block;
+}
+.tabs > ul > li img {
+	margin: 12px auto 0;
+	width: 26px;
+}
+
+.tabs > ul > li span {
+	color: #6F6F6F;
+}
+
+.tabs > ul > li span.on {
+	color: #D20A0A;
+}
+
+
+
+/**
+ * 轮播
+ */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 60%;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide:nth-child(2n) {
+    width: 60%;
+}
+.swiper-slide:nth-child(3n) {
+    width: 60%;
+}
+
+.swiper-slide span {
+	position: absolute;
+	z-index: 999;
+    left: 0px;
+    top: 40%;
+    background: transparent;
+    width: 100%;
+    color: #fff;
+}
+
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #e42b4a;
+}
+
+
+/**
+ * 首页
+ */
+.index-banner .swiper-slide{
+	text-align: left;
+}
+.index-banner .swiper-slide span {
+    position: absolute;
+    left: 0px;
+    bottom: 8px;
+    top: auto;
+    background: #00000054;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+}
+
+/**
+ * 分类列表
+ */
+
+.classifyList-main .swiper-wrapper img {
+	-webkit-filter:brightness(.3);
+	filter:brightness(.3);
+}
+
+
+
+span.alert {
+	font-size: 12px;
+    position: absolute;
+    right: 54px;
+    color: #f00;
+}

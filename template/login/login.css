@@ -1,0 +1,149 @@
+body, html, .login {
+	height: 100%;
+	font-family: 'PingFangSC-Regular,Helvetica,"Droid Sans",Arial,sans-serif';
+	min-width: 300px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+
+
+.login > div {
+	height: 66%;
+
+}
+
+.login > div:nth-child(1) {
+	height: auto;
+}
+
+.login > div:nth-child(3) {
+	
+}
+
+.login > .login-main {
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+
+.login .login-title {
+	margin-top: 10px;
+}
+
+.login .login-title > h1 {
+	text-align: center;
+	font-weight: 100;
+	letter-spacing : 2px;
+}
+
+.login .login-title > h1 span {
+	color: #D52845;
+	font-weight: bold;
+	
+}
+
+
+.login-main > .login-form {
+	margin-top: 26px;
+}
+
+.login-main > .login-form > .form-control {
+	border-bottom: 1px solid #D2D2D2;
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+.login-main .login-form label {
+	color: #D52B47;
+	position: relative;
+	padding-left: 28px;
+	width: calc(64px - 28px);
+	line-height: 30px;
+	float: left;
+}
+
+.login-main .login-form .usr::before, .login-main .login-form .pwd::before {
+	content:"";
+	width: 12.6px;
+	height: 15.4px;
+	display: block;
+	position: absolute;
+	top:  7px;
+	left: 0;
+	clear: both;
+}
+
+.login-main .login-form .usr::before {
+	
+	background: url('../../public/images/main/login/r@3x.png') no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.login-main .login-form .pwd::before {
+	
+	background: url('../../public/images/main/login/s@3x.png') no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.login-main .login-form input {
+	height: 30px;
+	background-color: transparent;
+	padding-left: 5px;
+	line-height: 36px;
+	width: calc(100% - 5px - 64px);
+	float: left;
+	
+}
+
+.login-main .login-form > .btn {
+	background-color: #D62846;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 6px;
+	color: #fff;
+	box-shadow: 0px 3px 4px 2px #d6284659;
+}
+
+.login-main .login-form > .account {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 34px;
+	color: #CBCBCB;
+}
+
+.login-main .account a {
+	color: #CBCBCB;
+}
+.login-main .account a span {
+	color: #D61D1D;
+}
+
+
+.third {
+	margin-top: calc(60px);
+}
+
+.third > ul > li {
+	float: left;
+	width: 33.3333%;
+	
+}
+
+.third > ul > li img {
+	width: 40px;
+	margin:0 auto;
+}
+
+.third > ul > li span {
+	text-align: center;
+	width: 100%;
+	color: #AAAAAA;
+	font-size: 12px;
+	padding-top: 6px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: #D2D0D1;
+}
